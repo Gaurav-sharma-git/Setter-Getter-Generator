@@ -110,25 +110,3 @@ if(fieldTypeName.equals("String")) return "\"\"";
 else return null;
 }
 }//class ends
-
-/*if(fieldTypeName.equals("int") || fieldTypeName.equals("short") ||fieldTypeName.equals("long") || fieldTypeName.equals("byte") ||fieldTypeName.equals("char"))
-{
-line="this."+fieldName+"=0;";
-list.add(line);
-}else if(fieldTypeName.equals("double") || fieldTypeName.equals("float") )
-{
-line="this."+fieldName+"=0.0;";
-list.add(line);
-}else if(fieldTypeName.equals("boolean"))
-{
-line="this."+fieldName+"=false;";
-list.add(line);
-}else if(fieldTypeName.equals("java.lang.String"))
-{
-line="this."+fieldName+"="+emptyString+";";
-list.add(line);
-}else
-{
-line="this."+fieldName+"=null;";
-list.add(line);
-}*/
